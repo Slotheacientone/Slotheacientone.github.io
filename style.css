@@ -42,39 +42,49 @@ section{
 .about-body{
     background: rgb(255, 255, 255);
     height: 82vh;
+    width: 100%;
+    display: inline-flex;
 }
 .profile-picture-section{
    width:50%;
-   
+   height: 100%;
+   background: red;
+   display: flex;
+   align-items: center;
 
    
 }   
 img.profile-picture{
-size: 10%;
+margin: 47%;
+height: 50%;
 }
 div{
     display: inline-block;
     width: 100px;
     height: 20px;
 }
-nav{
 
+.navigation{
     height: 50%;
-}
-ul{
     margin: 0;
     padding: 0;
-    list-style-type: none;            
-    color: rgb(255, 255, 255);
-
-}
-li{
+    list-style-type: none;   
+} 
+.nav-link{
     display: inline-block;
     font-size: 3vh 1vw;
-    margin: 0.7%;
+    margin: 0.6%;
 }
-li:first-child{
+.nav-link:first-child{
     margin-left: 0.5%;
+}
+.profile-info{
+   width:50%;
+   height: 100%;
+   list-style-type:none ;
+   background:blue;
+   align-items: center;
+  
 }
 a{
     color: rgb(255, 255, 255);
