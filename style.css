@@ -1,28 +1,32 @@
 body{
     margin: 0;
     padding: 0;
-    background: hsl(240, 1%, 19%);
+    background: rgb(34, 34, 165);
     font-family: Arial, Helvetica, sans-serif;
     
 }
 .header-title{
     color: hsl(207, 100%, 65%);
-    margin-left: 5px;
+    margin-left: 0.5%;
+    padding: 0;
+    margin-top: 0;
+    height: 50%;
+    font-size: 4vh 2vw;
 }
 .welcome-title{
     color: aliceblue;
     text-align: center;
-    font-size: 500%;
-    margin-top: 18%;
+    font-size: 6.5vw;
+    margin: 0;
 }
 header{
-    margin: 0;
-    padding: 10px 10px;
     background: hsl(240, 1%, 19%);
+    height: 18vh;
+    
 }
 section{
-    margin: 0;
-    padding: 3% 12px;
+  
+    height: 82hv;
     background: hsl(240, 1%, 19%);
 }
 
@@ -30,12 +34,19 @@ section.body{
     background-image: url("images/buildings-city-city-view-597909.jpg");
     background-size: 100%;
     background-position: center;
-    height: 670px;
+    height: 82vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 div{
     display: inline-block;
     width: 100px;
     height: 20px;
+}
+nav{
+
+    height: 50%;
 }
 ul{
     margin: 0;
@@ -46,10 +57,11 @@ ul{
 }
 li{
     display: inline-block;
-    margin: 10px;
+    font-size: 3vh 1vw;
+    margin: 0.7%;
 }
 li:first-child{
-    margin-left: 5px;
+    margin-left: 0.5%;
 }
 a{
     color: hsl(207, 100%, 65%);
