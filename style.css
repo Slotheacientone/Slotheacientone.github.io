@@ -11,7 +11,7 @@ body{
     padding: 0;
     margin-top: 0;
     height: 50%;
-    font-size: 4vh 2vw;
+    font-size: 2vw;
 }
 .welcome-title{
     color: aliceblue;
@@ -24,12 +24,6 @@ header{
     height: 18vh;
     
 }
-section{
-  
-    height: 82hv;
-    background: hsl(240, 1%, 19%);
-}
-
 .home-body{
     background-image: url("images/buildings-city-city-view-597909.jpg");
     background-size: 100%;
@@ -48,7 +42,7 @@ section{
 .profile-picture-section{
    width:50%;
    height: 100%;
-   background: red;
+   background:white;
    display: flex;
    align-items: center;
 
@@ -57,11 +51,6 @@ section{
 img.profile-picture{
 margin: 47%;
 height: 50%;
-}
-div{
-    display: inline-block;
-    width: 100px;
-    height: 20px;
 }
 
 .navigation{
@@ -72,25 +61,44 @@ div{
 } 
 .nav-link{
     display: inline-block;
-    font-size: 3vh 1vw;
+    font-size: 1vw;
     margin: 0.6%;
 }
 .nav-link:first-child{
     margin-left: 0.5%;
 }
-.profile-info{
+.profile-info-section{
    width:50%;
    height: 100%;
-   list-style-type:none ;
-   background:blue;
+   background:white;
+   display: flex;
    align-items: center;
   
 }
+.profile-info{
+    list-style-type:none ;
+   
+
+}
+
 a{
     color: rgb(255, 255, 255);
     text-decoration: none;
 
 }
+.link-profile-info{
+    color: black;
+    font-size: 3vw;
+    
+}
+.list-profile{
+    margin-bottom: 5vh;
+}
+.profile-title{
+    color: black;
+    font-size: 3vw;
+}
+
 a:hover{
     text-decoration: underline;
 }
