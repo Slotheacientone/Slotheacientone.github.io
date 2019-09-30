@@ -82,18 +82,27 @@ height: 50%;
 }
 
 a{
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
 
 }
 a:hover{
-    text-decoration: underline;
     color: white;
+    text-decoration: underline;
+}
+.download-all{
+    color: black;
+}
+.download-all:hover{
+    color: black;
 }
 .link-profile-info{
     color: black;
     font-size: 3vw;
     
+}
+.link-profile-info:hover{
+color: black;
 }
 .list-profile{
     margin-bottom: 5vh;
