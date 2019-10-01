@@ -25,7 +25,7 @@ header{
     
 }
 .home-body{
-    background-image: url("images/buildings-city-city-view-597909.jpg");
+    background-image: url("images/home page background.jpg");
     background-size: 100%;
     background-position: center;
     height: 82vh;
@@ -141,4 +141,13 @@ text-decoration: underline;
 .list-lab:hover{
     color: white;
     text-decoration: none;
+}.image-container{
+    display: block;
+}
+.btn btn-primary{
+    margin-left: 20%;
+}
+.img-thumbnail{
+    max-width: 60%;
+    height: auto;
 }
