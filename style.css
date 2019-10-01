@@ -64,7 +64,7 @@ height: 50%;
     font-size: 1vw;
     margin: 0.6%;
 }
-.nav-link:first-child{
+.nav-link-header:first-child{
     margin-left: 0.5%;
 }
 .profile-info-section{
