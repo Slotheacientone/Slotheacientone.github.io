@@ -141,13 +141,16 @@ text-decoration: underline;
 .list-lab:hover{
     color: white;
     text-decoration: none;
-}.image-container{
-    display: block;
-}
-.btn btn-primary{
-    margin-left: 20%;
 }
 .img-thumbnail{
-    max-width: 60%;
+    max-width: 40%;
     height: auto;
+}
+
+.download-fig{
+    color: white;
+}
+.download-fig:hover{
+    text-decoration: none;
+    color: white;
 }
