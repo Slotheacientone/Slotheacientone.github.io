@@ -143,7 +143,11 @@ text-decoration: underline;
     text-decoration: none;
 }
 .img-thumbnail{
-    max-width: 45%;
+    max-width: 40%;
+    height: auto;
+}
+.img-scenario{
+    max-width: 55%;
     height: auto;
 }
 .download-fig{
