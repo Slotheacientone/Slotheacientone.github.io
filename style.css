@@ -110,7 +110,7 @@ text-decoration: underline;
 }
 .labs-body{
     background: rgb(255, 255, 255);
-    height: 82vh;
+    height: 91vh;
     width: 100%;
     display: flex;
 }
@@ -156,4 +156,7 @@ text-decoration: underline;
 .download-fig:hover{
     text-decoration: none;
     color: white;
+}
+.embed-responsive-item{
+    max-height: 85%;
 }
