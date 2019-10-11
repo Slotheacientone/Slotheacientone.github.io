@@ -15,7 +15,7 @@ body{
     font-size: 2vw;
 }
 header{
-    background: #545151;
+    background: #343a40;
     height: 18vh;
     display: flex;
     
@@ -27,12 +27,19 @@ header{
     margin: 2%;
     
 }
-.body{
+.main{
+    height: 72vh;
+    width: 100vw;
+    background: white;
+    display: flex;
+   justify-content: center;
+}
+.container{
     display: block;
     background: #EDECEC;
-    height: 72vh;
-    margin: 2%;
-    margin-top: 0;
+   margin: 0;
+   padding: 0;
+   max-width: 96%;
 }.form-control{
     background: #EDECEC;
 
@@ -43,4 +50,7 @@ header{
 .btn.btn-secondary{
     color: #443E3E;
     background: #C4C4C4;
+}
+.thread-dark{
+    color: #545151;
 }
