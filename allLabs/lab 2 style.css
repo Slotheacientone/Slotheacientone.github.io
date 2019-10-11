@@ -11,8 +11,8 @@ body{
 
 
 .login-body{
-    height: 75vh;
-    width: 65vw;
+    height: 80vh;
+    width: 70vw;
     background: white;
     display: flex;
     border-radius: 15px; 
@@ -93,6 +93,10 @@ input:visited {
     width: 70%;
     background-color: white;
  
+}
+h6{
+    color: red;
+    margin-bottom: 5%;
 }
 
 
