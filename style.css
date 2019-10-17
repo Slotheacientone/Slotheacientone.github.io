@@ -16,6 +16,7 @@ body{
     text-align: center;
     font-size: 6.5vw;
     margin: 0;
+    
 }
 header{
     background: hsl(240, 1%, 19%);
@@ -118,7 +119,7 @@ text-decoration: underline;
     display: flex;
 }
 .labs-menu{
-    height: 206%;
+    height: 303.5%;
     width: 12%;
     background: rgb(36, 32, 32);
 }
