@@ -1,0 +1,46 @@
+.header{
+height: 18vh;
+background: #5CBAFE;
+display: flex;
+
+}
+.header-title{
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto ;
+    margin-left: 1vw;
+
+}
+.login{
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto ;
+    margin-left: 74vw;
+}
+.btn.btn-success{
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 3vw;
+    width: 150px;
+    height: 70px;
+    background: #3ED126;
+
+}
+.body{
+    height: 82vh;
+    width: 100vw;
+    display: flex;
+
+
+}
+.content{
+    width: 75%;
+    height: 100%;
+    background: yellowgreen;
+}
+.toolbar{
+    width: 25%;
+    height: 100%;
+
+    background: blue;
+}
