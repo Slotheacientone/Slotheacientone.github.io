@@ -36,11 +36,54 @@ display: flex;
 .content{
     width: 75%;
     height: 100%;
-    background: yellowgreen;
+    background: white;
 }
 .toolbar{
     width: 25%;
     height: 100%;
 
     background: blue;
+}.contain{
+    height: 45vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background: #34495e;
+}
+.image{
+    height: 100%;
+    width: 65%;
+    background-image: url(../images/cover.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.content{
+    width: 100vw;
+    height: 37vh;
+    display: flex;
+
+}
+.card{
+    box-shadow: #34495e;
+}
+.card.text{
+    margin-left: 0.8%;
+    margin-top:auto ;
+    margin-bottom:auto ;
+    height: 90%;
+    width: 37%;
+    display: flex;
+ background: #EEEEEE;
+}
+.card.button{
+    margin-left: 0.8%;
+    margin-top:auto ;
+    margin-bottom:auto ;
+    height: 90%;
+    width: 22.8%;
+}
+.card-body p{
+font-size: 39px;
+background: #EEEEEE;
+margin: auto;
 }
