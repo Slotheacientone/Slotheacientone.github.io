@@ -15,17 +15,28 @@ display: flex;
     color: white;
     margin-top: auto;
     margin-bottom: auto ;
-    margin-left: 74vw;
+    margin-left: 69vw;
 }
 .btn.btn-success{
     margin-bottom: auto;
     margin-top: auto;
     margin-left: 3vw;
-    width: 150px;
+    width: 180px;
     height: 70px;
     background: #3ED126;
 
 }
+h1{
+    font-size: 57px;
+}
+h2{
+    font-size: 45px;
+}
+.card-body p{
+    font-size: 39px;
+    background: #EEEEEE;
+    margin: auto;
+    }    
 .body{
     height: 82vh;
     width: 100vw;
@@ -64,7 +75,7 @@ display: flex;
 
 }
 .card{
-    box-shadow: #34495e;
+    box-shadow:0px 4px 4px #cbcbcb;
 }
 .card.text{
     margin-left: 0.8%;
@@ -75,15 +86,17 @@ display: flex;
     display: flex;
  background: #EEEEEE;
 }
-.card.button{
+.card-button{
     margin-left: 0.8%;
     margin-top:auto ;
     margin-bottom:auto ;
     height: 90%;
     width: 22.8%;
+    background: #3ED126;
+
 }
-.card-body p{
-font-size: 39px;
-background: #EEEEEE;
-margin: auto;
+.card-button p{
+    color: white;
+    font-size: 39px;
 }
+
