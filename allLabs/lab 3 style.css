@@ -15,13 +15,13 @@ display: flex;
     color: white;
     margin-top: auto;
     margin-bottom: auto ;
-    margin-left: 69vw;
+    margin-left: 64vw;
 }
 .btn.btn-success{
     margin-bottom: auto;
     margin-top: auto;
-    margin-left: 3vw;
-    width: 180px;
+    margin-left: 2vw;
+    width: 193px;
     height: 70px;
     background: #3ED126;
 
