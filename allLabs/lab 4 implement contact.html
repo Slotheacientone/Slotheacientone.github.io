@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="lab 4 style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <img class="logo" src="../images/logo1.png" alt="">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <h3>Home</h3>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <h3>Contact</h3>
+                </a>
+            </li>
+        </ul>
+        <div class="login-menu">
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    <h4>Slo </h4>
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Info</a>
+                    <a class="dropdown-item" href="#">Setting</a>
+                    <a class="dropdown-item" href="#">Log out</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="form">
+
+
+
+            <div class="form-group">
+                <label for="usr">First name:</label>
+                <input type="text" class="form-control" id="usr">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Last name:</label>
+                <input type="password" class="form-control" id="pwd">
+            </div>
+
+            <div class="form-group">
+                <label for="sel1">Country:</label>
+                <select class="form-control" id="sel1">
+                    <option>Viet Nam</option>
+                    <option>USA</option>
+                    <option>Canada</option>
+                    <option>Australia</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="comment">Subject:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+
+            <button type="button" class="btn btn-primary">Submit</button>
+
+
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>

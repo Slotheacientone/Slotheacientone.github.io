@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100vw;
+    height: 9vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40.4167px;
+    width: 36px;
+    margin: 0 5% 0 5%;
+
+}
+
+.login-menu {
+    width: 74%;
+    display: flex;
+    direction: rtl;
+}
+
+.btn {
+    width: 80px;
+    height: 40px;
+}
+
+.dropdown {
+    margin-right: 7%;
+}
+
+.body {
+    width: 100vw;
+    height: 91vh;
+    background-color: #f8f9fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-show {
+    width: 70%;
+    height: 80%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.form {
+    background-color: white;
+    width: 70%;
+    height: 72%;
+    padding: 2%;
+}
