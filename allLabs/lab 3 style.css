@@ -11,7 +11,7 @@
     display: flex;
 }
 
-.header-title {
+.title .header-title {
     color: white;
     margin-top: auto;
     margin-bottom: auto;
@@ -19,7 +19,7 @@
 
 }
 
-.nav {
+.header .nav {
     height: 100%;
     width: 70%;
     direction: rtl;
@@ -114,11 +114,12 @@ h2 {
 
 
 }
+
 .content2 {
     width: 100vw;
     height: 37vh;
     display: flex;
-    
+
 
 
 }

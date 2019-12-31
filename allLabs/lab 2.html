@@ -1,117 +1,198 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Viet's lab 2</title>
-       
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="../style.css">
-    </head>
-    <body>
-        <header>
-            <h1 class="header-title"><strong>Labs</strong></h1>
-                <ul class="navigation">
-                        <li class="nav-link-header"><a class="nav-header" href="../index.html">Home</a></li>
-                        <li class="nav-link-header"><a class="nav-header" href="">Labs</a></li>
-                        <li class="nav-link-header"><a class="nav-header" href="../about.html">About</a></li>
-                 </ul>
-           
-        </header>
-        <div class="labs-body">
-            <div class="labs-menu">
-                    <ul class="list-group">
-                            <li class="list-group-item"><a class="list-lab" href="lab 1.html">Lab 1</a></li>
-                            <li class="list-group-item active"><a class="list-lab" href="lab 1.html">Lab 2</a></li>
-                            <li class="list-group-item"><a class="list-lab" href="lab 3.html">Lab 3</a></li>
-                          </ul> 
-            </div>
-            <div class="labs-section">
-                    
-                        <ul class="nav-tabs nav" role="tablist">
 
-                            <li class="nav-link"><a class="nav-link active" data-toggle="tab" href="#requiment">Requiment</a></li>
-                            <li class="nav-link"><a class="nav-link" data-toggle="tab" href="#user-scenario">User Scenario</a></li>
-                            <li class="nav-link"><a class="nav-link" data-toggle="tab" href="#design">Design</a></li>
-                            <li class="nav-link"><a class="nav-link" data-toggle="tab" href="#implement">Implement</a></li>   
-                            <button type="button" class="btn btn-link"><a class="download-all" href="../file/17130273_design_lab2.zip">Download all lab 2 as zip</a></button>       
-                        </ul>  
-                         
-                 
-                
-                        <div class="tab-content">
-                            <div id="requiment" class="container tab-pane active"><br> 
-                              <h3>Requiment</h3>
-                              <ul>
-                              <li>Bài tập cá nhân:
-                                <ul>
-                                  <li>(1) Tạo ra một user scenario</li>
-                                  <li>(2) Chọn 1 bước trong user scenario để thiết kế 1 form giao diện
-                                    Web trên công cụ thiết kế đã chọn. Sau đó tạo ra file html tương
-                                    ứng cho thiết kế này.</li>
-                                    <li>Upload lên Azure / github: trong file html có chèn hình ảnh của
-                                      user scenario ở (1) và đường dẫn của file thiết kế ở (2).</li>
-                                </ul>
-                              </li>
-                            </ul>
-                            </div>
-                            <div id="user-scenario" class="container tab-pane fade"><br>
-                              <h3>User Scenario</h3>
-                              <img src="../images/lab2 scenario.jpg" class="img-thumbnail" alt="Lab 2 Scenario">
-                              </div>
-                            <div id="design" class="container tab-pane fade"><br>
-                              <h3>Design</h3>
-                              <div class="image-container">
-                                <img
-                                  src="../images/lab2 sketch.jpg"
-                                  class="img-thumbnail"
-                                  alt="Lab 1 Sketch"
-                                />
-                              </div>
-                              <h4>Màn hình đăng nhập nếu đăng nhập thành công</h4>
-                              <div class="image-container">
-                                <img
-                                  src="../images/lab2.png"
-                                  class="img-thumbnail"
-                                  alt="Lab 2 Image"
-                                />
-                              </div>
-                              <button type="button" class="btn btn-primary">
-                                <a class="download-fig" href="../file/lab2.fig">Download</a>
-                              </button>
-                  
-                              <h4>Màn hình đăng nhập nếu đăng nhập thất bại</h4>
-                  
-                              <div class="image-container">
-                                <img
-                                  src="../images/lab2 login failure.png"
-                                  class="img-thumbnail"
-                                  alt="Lab 2 Login Failure Image"
-                                />
-                              </div>
-                              <button type="button" class="btn btn-primary">
-                                <a class="download-fig" href="../file/lab2 login failure.fig"
-                                  >Download</a
-                                >
-                              </button>                                
-                            </div>
-                            <div id="implement" class="container tab-pane fade"><br>
-                              <h3>Implement</h3>
-                              <h4>Màn hình đăng nhập nếu đăng nhập thành công</h4>
-                              <div class="embed-responsive embed-responsive-16by9">
-                                  <iframe class="embed-responsive-item" src="lab 2 implement.html" allowfullscreen></iframe>
-                                </div>
-                                <h4>Màn hình đăng nhập nếu đăng nhập thất bại</h4>
-                                <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" src="lab 2 implement login failed.html" allowfullscreen></iframe>
-                                  </div>
-                            </div>
-                        </div>  
-                </div>                     
-            </div>
-         
+<head>
+  <meta charset="UTF-8">
+  <title>Viet's lab 2</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="lab 2 style.css" />
+
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="header-title"><strong>Labs</strong></h1>
+    <ul class="navigation">
+      <li class="nav-link-header"><a class="nav-header" href="../index.html">Home</a></li>
+      <li class="nav-link-header"><a class="nav-header" href="">Labs</a></li>
+      <li class="nav-link-header"><a class="nav-header" href="../about.html">About</a></li>
+    </ul>
+
+  </header>
+  <div class="labs-body">
+    <div class="labs-menu">
+      <ul class="list-group">
+        <li class="list-group-item"><a class="list-lab" href="lab 1.html">Lab 1</a></li>
+        <li class="list-group-item active"><a class="list-lab" href="lab 1.html">Lab 2</a></li>
+        <li class="list-group-item"><a class="list-lab" href="lab 3.html">Lab 3</a></li>
+        <li class="list-group-item">
+          <a class="list-lab" href="lab 4.html">Lab 4</a>
+        </li>
+        <li class="list-group-item">
+          <a class="list-lab" href="lab 5.html">Lab 5</a>
+        </li>
+      </ul>
+    </div>
+    <div class="labs-section">
+
+      <ul class="nav-tabs nav" role="tablist">
+
+        <li class="nav-link"><a class="nav-link active" data-toggle="tab" href="#requiment">Requiment</a></li>
+        <li class="nav-link"><a class="nav-link" data-toggle="tab" href="#user-scenario">User Scenario</a></li>
+        <li class="nav-link"><a class="nav-link" data-toggle="tab" href="#design">Design</a></li>
+        <li class="nav-link"><a class="nav-link" data-toggle="tab" href="#implement">Implement</a></li>
+        <button type="button" class="btn btn-link"><a class="download-all"
+            href="../file/17130273_design_lab2.zip">Download all lab 2 as zip</a></button>
+      </ul>
+
+
+
+      <div class="tab-content">
+        <div id="requiment" class="container tab-pane active"><br>
+          <h3>Requiment</h3>
+          <ul>
+            <li>Bài tập cá nhân:
+              <ul>
+                <li>(1) Tạo ra một user scenario</li>
+                <li>(2) Chọn 1 bước trong user scenario để thiết kế 1 form giao diện
+                  Web trên công cụ thiết kế đã chọn. Sau đó tạo ra file html tương
+                  ứng cho thiết kế này.</li>
+                <li>Upload lên Azure / github: trong file html có chèn hình ảnh của
+                  user scenario ở (1) và đường dẫn của file thiết kế ở (2).</li>
+              </ul>
+            </li>
+          </ul>
         </div>
-    </body>
+        <div id="user-scenario" class="container tab-pane fade"><br>
+          <h3>User Scenario</h3>
+          <img src="../images/lab2 scenario.jpg" class="img-thumbnail" alt="Lab 2 Scenario">
+        </div>
+        <div id="design" class="container tab-pane fade"><br>
+          <h3>Design</h3>
+          <div class="image-container">
+            <img src="../images/lab2 sketch.jpg" class="img-thumbnail" alt="Lab 1 Sketch" />
+          </div>
+          <h4>Màn hình đăng nhập nếu đăng nhập thành công</h4>
+          <div class="image-container">
+            <img src="../images/lab2.png" class="img-thumbnail" alt="Lab 2 Image" />
+          </div>
+          <button type="button" class="btn btn-primary">
+            <a class="download-fig" href="../file/lab2.fig">Download</a>
+          </button>
+
+          <h4>Màn hình đăng nhập nếu đăng nhập thất bại</h4>
+
+          <div class="image-container">
+            <img src="../images/lab2 login failure.png" class="img-thumbnail" alt="Lab 2 Login Failure Image" />
+          </div>
+          <button type="button" class="btn btn-primary">
+            <a class="download-fig" href="../file/lab2 login failure.fig">Download</a>
+          </button>
+        </div>
+        <div id="implement" class="container tab-pane fade"><br>
+          <h3>Implement</h3>
+          <h4>Màn hình đăng nhập nếu đăng nhập thành công</h4>
+          <div class="body">
+            <div class="login-body">
+              <div class="logo">
+                <img src="../images/logo.png" class="img" />
+              </div>
+              <div class="login-session">
+                <div class="block">
+                  <div class="form-header">
+                    <h1 class="header-title-login">Welcome to Javelin</h1>
+                  </div>
+                  <div class="form">
+                    <form action="" method="" name="">
+                      <div class="form_item">
+                        <label for="">EMAIL</label>
+                        <input type="email" placeholder="example@domain.com""
+                name=" email">
+                      </div>
+
+                      <div class="form_item">
+                        <label for="">PASSWORD</label>
+                        <input type="password" placeholder="***********" name="password" />
+                      </div>
+
+                      <button type="button" data-toggle="modal" data-target="#myModalLogin">
+                        LOGIN
+                      </button>
+                      <div class="modal fade" id="myModalLogin">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-body">
+                              Login success
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h4>Màn hình đăng nhập nếu đăng nhập thất bại</h4>
+          <div class="body">
+            <div class="login-body">
+              <div class="logo">
+                <img src="../images/logo.png" class="img">
+
+              </div>
+              <div class="login-session">
+                <div class="block">
+                  <div class="form-header">
+                    <h1 class="header-title-login">Welcome to Javelin</h1>
+                  </div>
+                  <div class="form">
+                    <form action="" method="" name="">
+
+                      <div class="form_item">
+                        <label for="">EMAIL</label>
+                        <input type="email" placeholder="example@domain.com"" name=" email">
+                      </div>
+
+                      <div class="form_item">
+                        <label for="">PASSWORD</label>
+                        <input type="password" placeholder="***********" name="password">
+                      </div>
+                      <h6>Incorrect email or password</h6>
+
+
+                      <button type="button" data-toggle="modal" data-target="#myModalLogin">LOGIN</button>
+                      <div class="modal fade" id="myModalLogin">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-body">
+                              Login failure
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </form>
+
+                  </div>
+                </div>
+
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</body>
+
 </html>

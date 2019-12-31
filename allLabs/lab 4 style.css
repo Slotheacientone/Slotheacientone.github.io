@@ -19,12 +19,12 @@ body {
 }
 
 .login-menu {
-    width: 74%;
+    width: 65%;
     display: flex;
     direction: rtl;
 }
 
-.btn {
+.dropdown .btn {
     width: 80px;
     height: 40px;
 }
